@@ -1,0 +1,148 @@
+{
+    "TC02":{
+        "fromcity": "Patna",
+        "tocity": "Mumbai"
+    },
+    "TC03":{
+        "fromcity": "Kolkata",
+        "tocity": "Mumbai"
+    },
+    "TC04":{
+        "fromcity": "Kolkata",
+        "tocity": "Mumbai",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020"
+    },
+    "TC05":{
+        "fromcity": "Kolkata",
+        "tocity": "Mumbai",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"9",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    },
+    "TC06":{
+        "fromcity": "Kolkata",
+        "tocity": "Mumbai",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    },
+    "TC07":{
+        "fromcity": "Kolkata",
+        "tocity": "Mumbai",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    },
+    "TC08":{
+        "fromcity": "Kolkata",
+        "tocity": "Abu Dhabi",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    },
+    "TC09":{
+        "fromcity": "Kolkata",
+        "tocity": "Delhi",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    },
+    "TC010":{
+        "fromcity": "Kolkata",
+        "tocity": "Delhi",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    },
+    "TC011":{
+        "fromcity": "Kolkata",
+        "tocity": "Abu Dhabi",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    },
+    "TC012":{
+        "fromcity": "Kolkata",
+        "tocity": "Delhi",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    },
+    "TC013":{
+        "fromcity": "Kolkata",
+        "tocity": "Bangkok",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    },
+    "TC014":{
+        "fromcity": "Kolkata",
+        "tocity": "Bangkok",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "childPassenger":"1",
+        "infantPassenger":"1"
+    }
+   
+}
