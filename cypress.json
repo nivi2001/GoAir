@@ -1,0 +1,10 @@
+{
+    "chromeWebsecurity": false,
+    "defaultCommandTimeout": 8000,
+    "pageLoadTimeout": 100000,
+    "reporter": "mochawesome",
+    "env": {
+      "url": "https://www.goair.in/"
+    },
+    "projectId": "45hmii"
+  }
