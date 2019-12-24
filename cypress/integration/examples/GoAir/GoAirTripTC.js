@@ -9,7 +9,7 @@ describe("Validate Go Air Search Page",function(){
    
      
     })
-    /*
+    
     it("SF-TC-01 Search flight without entering Origin",function(){
      const bookFlights = new BookFlights
      bookFlights.selectRoundTrip()
