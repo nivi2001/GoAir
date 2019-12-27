@@ -53,7 +53,7 @@ class BookFlights{
         //cy.log("Request month is"+dMonth)
         //cy.log("Difference is"+monthdiff)
         while(monthdiff >0){
-          cy.get('[class="ui-datepicker-next ui-corner-all"]').click() // Click on next button till requested month is visible
+          cy.get('[class="ui-datepicker-next ui-corner-all"]').click()
           monthdiff=monthdiff-1;
         } 
 
@@ -62,22 +62,25 @@ class BookFlights{
           const departdate=$dayData.text()
           if (departdate ==dDay)
           {
-            $dayData.click(); // Select desired date
+            $dayData.click();
           }
         })
       }
    pickreturndate(rDay,rMonth,rYear,dMonth)
    {
     let monthdiff = 0;
-       if(rMonth > dMonth){   //if return date is in same year
+    //var today = new Date();
+    //let cmonth = parseInt(today.getMonth()); 
+    
+    if(rMonth > dMonth){   
       monthdiff=rMonth-dMonth
     }
 
     else {
-      monthdiff=rMonth+11-dMonth // if return date is in next year
+      monthdiff=rMonth+11-dMonth 
     }
     while(monthdiff >0){
-      cy.get('[class="ui-datepicker-next ui-corner-all"]').click() // click next in calender till return date is visible
+      cy.get('[class="ui-datepicker-next ui-corner-all"]').click()
       monthdiff=monthdiff-1;
     } 
 
@@ -90,7 +93,7 @@ class BookFlights{
       const returndate=$returnDate.text()
       if (returndate ==rDay)
       {
-        $returnDate.click(); // select return date
+        $returnDate.click();
 
       }
       //cy.log(ReturnDate)
@@ -140,12 +143,27 @@ class BookFlights{
    cy.get("[class='error-msg alert alert-error']").should('contain','promotion')
    
    }
-   
+   /*selectCurrency()
+   {
+    //cy.get("[class='form-control currencytext currency']:visible").select("USD")
+   cy.get("[class='form-control currencytext currency']:visible").each(($currency, index, $list) => {
+      const currency = $currency.text()
+     cy.log(currency)
+     if (currency == "USD" )
+      {
+        $currency.select();
+
+      }
+     
+     
+    })
+   }*/
    validateHyperlinks()
    {
-        const allLinks = {
-          "hyperlink" : null,
-          "linkhref" : null,
+    //cy.visit('https://www.goair.in/');
+          const allLinks = {
+          "hyperlink" : "$link.text()",
+          "linkhref" : "$link.attr('href')",
           }
           cy.get('a').each(($link,index,$list) =>{
               allLinks.hyperlink = $link.text()
@@ -156,14 +174,13 @@ class BookFlights{
                   allLinks.linkhref== 'undefined' || 
                   allLinks.linkhref == null || 
                   allLinks.linkhref == 'https://in.linkedin.com/company/goair' || 
-                  allLinks.linkhref.startsWith('.',0) ){
-                  cy.log('Either URL is Invalid or it belongs to the external domain') 
+                  allLinks.linkhref == 'https://www.goair.in/.round-trip1' ){
+                  cy.log('Invalid link') 
                   }
                   else {
                   cy.request({
                   url: allLinks.linkhref,
-                   followRedirect: false, // turn off following redirects
-                   failOnStatusCode : false
+                   followRedirect: false // turn off following redirects
                   })
                   .then((resp) => {
                   // redirect status code is 302

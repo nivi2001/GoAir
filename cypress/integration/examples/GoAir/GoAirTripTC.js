@@ -2,7 +2,6 @@ import BookFlights from '../../../support/pageObjects/BookFlights'
 
 describe("Validate Go Air Search Page",function(){
 
-  
     this.beforeEach(function() {
     cy.visit(Cypress.env('url'));
     cy.fixture('DataGoAir').as("bookFlightTestData");

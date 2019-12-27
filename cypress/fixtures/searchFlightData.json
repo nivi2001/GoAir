@@ -1,0 +1,19 @@
+{
+    "VS01":{
+        "fromcity": "Patna",
+        "tocity": "Mumbai",
+        "departDay":"20",
+        "departMonth":"2",
+        "departYear":"2020",
+        "returnDay":"19",
+        "returnMonth":"3",
+        "returnYear":"2020",
+        "adultPassengers":"2",
+        "outboundFlight":"G8  586",
+        "outboundTicketGroup":"GoSmart",
+        "inboundTicketGroup":"GoSmart",
+        "inboundFlight":"G8  585",
+        "fromCityCode":"PAT",
+        "toCityCode":"BOM"
+    }
+}
