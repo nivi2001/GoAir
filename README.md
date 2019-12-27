@@ -7,7 +7,8 @@ I have uploaded automation test scripts of following pages:
 
 All the testscripts can be found in /cypress/integration/examples/GoAir.
 Pageobject definitions are present in /cypress/support/pageObjects.
-Test data are in folder /fixtures/
+Test data are in folder /fixtures/.
+Last test run logs can be found in /cypress/videos/examples/GoAir
 
 Regards
 Nibriti Singh
