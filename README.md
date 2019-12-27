@@ -3,7 +3,8 @@ Hello Everyone
 
 This is my first automation project in Cypress. I have automated flight booking website "Go Air" using page object model.
 I have uploaded automation test scripts of following pages:
-1. Go Air search Page
+1. GoAir Search Flight Page
+2. GoAir Airline Tickets and Fares
 
 All the testscripts can be found in /cypress/integration/examples/GoAir.
 Pageobject definitions are present in /cypress/support/pageObjects.
